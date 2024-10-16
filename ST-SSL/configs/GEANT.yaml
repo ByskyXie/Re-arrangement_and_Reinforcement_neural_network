@@ -1,0 +1,38 @@
+# running: python main.py --config_filename=configs/GEANT.yaml
+
+## global
+seed: 31
+device: cuda
+mode: train
+best_path: None
+debug: True # true means no log in file
+
+## data
+data_dir: data
+dataset: GEANT
+input_length: 8 # 8+9*3                   # note: have to modified same in dataloader.py line 91
+batch_size: 32  # 32 will cause oom
+test_batch_size: 32
+graph_file: data/GEANT/adj_mx.npz # num_nodes: 1024
+feature_num: 23
+
+## model
+d_input: 1                  # means inflow and outflow
+d_output: 23                 # means inflow and outflow   & feature_num
+d_model: 64
+dropout: 0.1
+percent: 0.1                # augumentation percentage  
+shm_temp: 0.5               # temperature for loss of spatial heterogeneity modeling 
+nmb_prototype: 6           # number of cluster
+yita: 0.5                   # balance for inflow loss and outflow loss, $yita * inflow + (1 - yita) * outflow$
+
+## train
+epochs: 200
+lr_init: 0.0001
+early_stop: True
+early_stop_patience: 15
+grad_norm: True
+max_grad_norm: 5
+use_dwa: True         # whether to use dwa for loss balance
+temp: 2               # tempurature parameter in dwa, a larger T means more similer weights
+mask_value: None       # mask threshold (or 'None'), pos<mask_value will not consider

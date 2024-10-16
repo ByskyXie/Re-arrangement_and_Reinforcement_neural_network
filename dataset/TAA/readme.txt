@@ -1,0 +1,1 @@
+Before training the TAA dataset with the target model, you should convert the video to a matrix file using the function "trans_video_as_matrix(path, sequence_len)" of "adapter.py".

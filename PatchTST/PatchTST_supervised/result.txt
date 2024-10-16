@@ -1,0 +1,33 @@
+Abilene_8_PatchTST_Abilene_ftM_sl8_ll0_pl1_dm128_nh16_el3_dl1_df256_fc1_ebfixed_dtTrue_Exp_0  
+mse:0.23459111154079437, mae:0.2901458740234375, rse:0.38613173365592957
+
+Abilene_8_PatchTST_Abilene_ftM_sl8_ll0_pl1_dm128_nh16_el3_dl1_df256_fc1_ebfixed_dtTrue_Exp_0  
+mse:1.469054495828459e-06, mae:0.0005010456079617143, rse:0.22947323322296143
+
+Abilene_8_PatchTST_Abilene_ftM_sl8_ll0_pl1_dm128_nh16_el3_dl1_df256_fc1_ebfixed_dtTrue_Exp_0  
+mse:1.469054495828459e-06, mae:0.0005010456079617143, rse:0.22947323322296143
+
+Abilene_8_PatchTST_Abilene_ftM_sl8_ll0_pl1_dm128_nh16_el3_dl1_df256_fc1_ebfixed_dtTrue_Exp_0  
+mse:6.389375926119101e-07, mae:0.0003145414520986378, rse:0.15133599936962128
+
+TaxiBJ_8_PatchTST_TaxiBJ_ftM_sl8_ll0_pl1_dm128_nh16_el3_dl1_df256_fc1_ebfixed_dtTrue_Exp_0  
+mse:705.5225830078125, mae:14.589168548583984, rse:0.25206050276756287
+
+Abilene_8_PatchTST_Abilene_ftM_sl8_ll0_pl1_dm128_nh16_el3_dl1_df256_fc1_ebfixed_dtTrue_Exp_0  
+mse:1.469054495828459e-06, mae:0.0005010456079617143, rse:0.22947323322296143
+
+ETTm1_48_PatchTST_ETTm1_ftM_sl48_ll4_pl4_dm128_nh16_el3_dl1_df256_fc1_ebfixed_dtTrue_Exp_0  
+mse:0.6200961470603943, mae:0.6172186136245728, rse:0.8988914489746094
+
+Abilene_8_PatchTST_Abilene_ftM_sl8_ll0_pl1_dm128_nh16_el3_dl1_df256_fc1_ebfixed_dtTrue_Exp_0  
+mse:1.161290128948167e-06, mae:0.0004095659824088216, rse:0.20875179767608643
+
+TaxiBJ_8_PatchTST_TaxiBJ_ftM_sl8_ll0_pl1_dm128_nh16_el3_dl1_df256_fc1_ebfixed_dtTrue_Exp_0  
+mse:1951.2816162109375, mae:22.691495895385742, rse:0.3674100935459137
+
+GEANT_8_PatchTST_GEANT_ftM_sl8_ll0_pl1_dm128_nh16_el3_dl1_df256_fc1_ebfixed_dtTrue_Exp_0  
+mse:131238816.0, mae:2503.203857421875, rse:0.19852831959724426
+
+Abilene_8_PatchTST_Abilene_ftM_sl8_ll0_pl1_dm128_nh16_el3_dl1_df256_fc1_ebfixed_dtTrue_Exp_0  
+mse:3.607473445299547e-06, mae:0.00042793649481609464, rse:0.3426157534122467
+
